@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["nik.wolfgramm@swisstxt.ch"]
   spec.description   = %q{A simple gem for automating the encoding process with ffmpeg}
   spec.summary       = %q{stack-encode - automating the encoding process with ffmpeg}
-  spec.homepage      = "https://github.com/swisstxt/stack-encode"
+  spec.homepage      = "https://github.com/niwo/stack-encode"
   spec.license       = "MIT"
 
   spec.files                  = `git ls-files`.split($/)
@@ -19,9 +19,9 @@ Gem::Specification.new do |spec|
   spec.require_paths          = ["lib"]
   spec.required_ruby_version  = '>= 2.0.0'
 
-  spec.add_dependency "thor", "~> 0.20.0 "
-  spec.add_dependency "streamio-ffmpeg", "~> 3.0.2"
+  spec.add_dependency "thor", "~> 0.20"
+  spec.add_dependency "streamio-ffmpeg", "~> 3.0"
 
-  spec.add_development_dependency "bundler", "~> 1.17.1"
+  spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake"
 end
